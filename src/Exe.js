@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Exe.css';
+import infoaluno from './cadastro.js';
 
 function Exe() {
 
@@ -34,6 +35,13 @@ function Exe() {
         <div className="result">
           <p>{nome}</p>
           <p>{telefone}</p>
+        </div>
+      </div>
+
+      <div className="Central_result">
+        <div className="result">
+          <p>{infoaluno.nome}</p>
+          <p>{infoaluno.ra}</p>
         </div>
       </div>
     </div>
